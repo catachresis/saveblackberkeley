@@ -15,7 +15,7 @@
 	body
 	{
 		background: #252122;
-		background-image: url('images/bg02.png');
+		background-image: url('images/bg.png');
 	}
 
 		body.is-loading * {
@@ -85,12 +85,12 @@
 	a
 	{
 		color: #d52349;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover
 		{
-			text-decoration: none;
+			text-decoration: underline;
 		}
 
 	br.clear
@@ -241,6 +241,11 @@
 		{
 			margin-bottom: 2.5em;
 		}
+			article.post 
+			{
+				background-color: white;
+				padding: 2em 5em;
+			}
 
 			section > :last-child,
 			article > :last-child
@@ -737,7 +742,7 @@
 	#main-wrapper
 	{
 		position: relative;
-		background: #f7f7f7 url('images/bg02.png');
+		background: #f7f7f7 url('images/bg.png');
 	}
 
 		#main-wrapper:before
@@ -747,7 +752,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
+			background: url('images/bg.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
@@ -759,7 +764,7 @@
 
 			#main-wrapper .major h2
 			{
-				background: #f7f7f7 url('images/bg02.png');
+				background: #f7f7f7 url('images/bg.png');
 			}
 
 	#footer-wrapper
@@ -775,7 +780,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
+			background: url('images/bg.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -851,3 +856,89 @@
 			border-radius: 5px;
 			margin: 0;
 		}
+		
+/*********************************************************************************/
+/* Action Network 																 */
+/*********************************************************************************/
+
+	#can_embed_form.can_768.can_float .first_line 
+		{
+			text-transform: none;
+			font-size: 1.5em;
+		}
+		
+	.graytext 
+		{
+			text-transform: uppercase;
+		}
+
+	.entry-title 
+		{
+			text-transform: uppercase !important;
+			font-size: 35px;
+			line-height: 40px !important;
+			border-bottom: none !important;
+			padding-bottom: 0 !important;
+		}
+
+	input[type="submit"] 
+		{
+			font-size: 20px !important;
+			font-weight: 400 !important;
+			text-transform: uppercase;
+		}
+	
+	#d_sharing ul 
+		{
+			margin-left: 0;
+		}
+	
+	.main_action_image 
+		{
+			width: 90%;
+		}
+	
+	#can_sidebar 
+		{
+			width: 35%;
+			position: relative;
+			float: right;
+			padding: 15px 20px;
+		}
+	
+	ul 
+		{
+			margin-left: 0;
+		}
+
+
+	h4.action_target {
+		display: none;
+	}
+
+	#can_main_col {
+		width: 60%;
+		max-width: 655px;
+		float: left;
+	}
+	
+	.last_line {
+		width: 98%;
+	}
+		
+	#can_main_col h2 {
+			text-transform: uppercase;
+	}
+
+	#action_info {
+		display: none;
+	}
+
+	#action_info_inner, .action_letter {
+		display: none;
+	}
+	
+	.actionbutton {
+		padding-top: 2px;
+		margin-top: 10px;	
+	}

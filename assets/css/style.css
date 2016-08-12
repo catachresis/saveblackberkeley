@@ -74,6 +74,7 @@
 	{
 		color: #252122;
 		font-weight: 700;
+		margin-bottom: 1em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -108,7 +109,7 @@
 
 	p, ul, ol, dl, table
 	{
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	/* Form */
@@ -648,12 +649,11 @@
 		{
 			position: relative;
 			display: inline-block;
-			background-color: #d52349;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
 			border-top-right-radius: 5px;
-			margin: 0 0 4.5em 0;
+			margin: 0 0 1.5em 0;
 			cursor: default;
 		}
 
@@ -677,17 +677,14 @@
 
 			.icon.featured.alt
 			{
-				background-color: #252122;
 			}
 
 				.icon.featured.alt:after
 				{
-					border-top-color: #252122;
 				}
 
 			.icon.featured.alt2
 			{
-				background-color: #827a7c;
 			}
 
 				.icon.featured.alt2:after
